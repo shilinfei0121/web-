@@ -1,0 +1,55 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <!-- <block wx:for="{{logs}}" wx:for-item="log">
+    <text class="log-item">{{index + 1}}. {{log}}</text>
+  </block> -->
+  <view>
+  <image class="ing" src="./image/90.jpg"></image>
+  <view class="box">
+  <image class="imgs" src="https://wx.qlogo.cn/mmopen/vi_32/nHTeBrP98wzG3RFxx88FrOLiaRXvBSiaKws0Vvzy7INjxIWuMZvn83gNLvgx3GSvNHubST5wmiaOQ80dRlrsxFuKw/132" mode="cover"></image>
+  <view class="kon"></view>
+  <view class="div">
+      <view>姓名:</view>
+      <view class="ipp"><input value="施林飞"></input></view>
+      <view class="btt"><button class="btn">复制</button></view>
+  </view>
+  <view class="div">
+      <view>微信:</view>
+      <view class="ipp"><input value="slf244878765"></input></view>
+      <view class="btt"><button class="btn">复制</button></view>
+  </view>
+  <view class="div">
+      <view>QQ:</view>
+      <view class="ipp"><input value="244878765"></input></view>
+      <view class="btt"><button class="btn">复制</button></view>
+  </view>
+  <view class="div">
+      <view>职位:</view>
+      <view class="ipp"><input value="web前端"></input></view>
+      <view class="btt"><button class="btn">复制</button></view>
+  </view>
+  </view>
+  <!-- </block> -->
+  </view>
+   <!-- <view class="div">
+      <view>职位:</view>
+      <view class="ipp"><input value="web前端"></input></view>
+      <view class="btt"><button class="btn">复制</button></view>
+  </view> <view class="div">
+      <view>职位:</view>
+      <view class="ipp"><input value="web前端"></input></view>
+      <view class="btt"><button class="btn">复制</button></view>
+  </view> <view class="div">
+      <view>职位:</view>
+      <view class="ipp"><input value="web前端"></input></view>
+      <view class="btt"><button class="btn">复制</button></view>
+  </view> <view class="div">
+      <view>职位:</view>
+      <view class="ipp"><input value="web前端"></input></view>
+      <view class="btt"><button class="btn">复制</button></view>
+  </view> <view class="div">
+      <view>职位:</view>
+      <view class="ipp"><input value="web前端"></input></view>
+      <view class="btt"><button class="btn">复制</button></view>
+  </view> -->
+</view>
