@@ -2,16 +2,14 @@
 <view class="container">
   <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    
     <block wx:else>
+    <view>
+        <image class="lao" src="./imge/000.gif"></image>
+    </view>
+
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
-  </view>
-  <view class="xiaoxue">晓雪是个小吃货</view>
-  <view class="usermotto">
-    <text class="user-motto">
-    <!-- {{motto}} -->
-    <!-- 你渴望力量吗 -->
-    </text>
   </view>
 </view>

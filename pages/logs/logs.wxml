@@ -1,8 +1,5 @@
 <!--logs.wxml-->
 <view class="container log-list">
-  <!-- <block wx:for="{{logs}}" wx:for-item="log">
-    <text class="log-item">{{index + 1}}. {{log}}</text>
-  </block> -->
   <view>
   <image class="ing" src="./image/90.jpg"></image>
   <view class="box">
@@ -28,28 +25,12 @@
       <view class="ipp"><input value="web前端"></input></view>
       <view class="btt"><button class="btn">复制</button></view>
   </view>
+  <view class="luyou">
+        <view><button class="bu"  bindtap="zhuye">主页</button></view>
+        <view><button class="bu"  bindtap="wei">微信</button></view>
+        <view><button class="bu"  bindtap="shen">生涯</button></view>
+        <view><button class="bu"  bindtap="lao">未来</button></view>
   </view>
-  <!-- </block> -->
   </view>
-   <!-- <view class="div">
-      <view>职位:</view>
-      <view class="ipp"><input value="web前端"></input></view>
-      <view class="btt"><button class="btn">复制</button></view>
-  </view> <view class="div">
-      <view>职位:</view>
-      <view class="ipp"><input value="web前端"></input></view>
-      <view class="btt"><button class="btn">复制</button></view>
-  </view> <view class="div">
-      <view>职位:</view>
-      <view class="ipp"><input value="web前端"></input></view>
-      <view class="btt"><button class="btn">复制</button></view>
-  </view> <view class="div">
-      <view>职位:</view>
-      <view class="ipp"><input value="web前端"></input></view>
-      <view class="btt"><button class="btn">复制</button></view>
-  </view> <view class="div">
-      <view>职位:</view>
-      <view class="ipp"><input value="web前端"></input></view>
-      <view class="btt"><button class="btn">复制</button></view>
-  </view> -->
+  </view>
 </view>

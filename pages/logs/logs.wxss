@@ -31,7 +31,7 @@ height:300rpx;
   width: 265px;
   height: 270px;
   /* background: whitesmoke; */
-  box-shadow: 0 0 12px rgb(223, 223, 223);
+  box-shadow: 0 0 12px rgb(199, 199, 199);
 }
 .div{
   border-radius: 5px;
@@ -40,7 +40,7 @@ height:300rpx;
   height: 35px;
   background: white;
   box-shadow: 0 0 12px rgb(223, 223, 223);
-  margin-top: 23px;
+  margin-top: 13px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -53,9 +53,21 @@ height:300rpx;
   height: 20px;
   font-size: 10px;
   color: white;
-  background: lightblue;
+  background: rgb(126, 188, 223);
 }
 .ipp{
   width: 100px;
   color: gray;
+}
+
+.luyou{
+  margin-top:20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bu{
+  width: 48px;
+  font-size: 10px;
 }

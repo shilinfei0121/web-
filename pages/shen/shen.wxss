@@ -1,0 +1,9 @@
+/* pages/shen/shen.wxss */
+.div{
+  margin-top: 10px;
+  height: 10px;
+  background: whitesmoke;
+}
+.im{
+height: 130px;
+}
