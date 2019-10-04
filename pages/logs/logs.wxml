@@ -1,9 +1,12 @@
 <!--logs.wxml-->
 <view class="container log-list">
   <view>
-  <image class="ing" src="./image/90.jpg"></image>
+  <!-- <image class="ing" src="./image/l0.jpg"></image> -->
+  <view class="left">-------------</view>
+  <view class="right">-------------</view>
   <view class="box">
   <image class="imgs" src="https://wx.qlogo.cn/mmopen/vi_32/nHTeBrP98wzG3RFxx88FrOLiaRXvBSiaKws0Vvzy7INjxIWuMZvn83gNLvgx3GSvNHubST5wmiaOQ80dRlrsxFuKw/132" mode="cover"></image>
+  
   <view class="kon"></view>
   <view class="div">
       <view>姓名:</view>
@@ -28,7 +31,7 @@
   <view class="luyou">
         <view><button class="bu"  bindtap="zhuye">主页</button></view>
         <view><button class="bu"  bindtap="wei">微信</button></view>
-        <view><button class="bu"  bindtap="shen">生涯</button></view>
+        <view><button class="bu"  bindtap="shen">国庆</button></view>
         <view><button class="bu"  bindtap="lao">未来</button></view>
   </view>
   </view>

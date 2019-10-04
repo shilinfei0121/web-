@@ -1,12 +1,14 @@
 {
   "pages": [
+    
     "pages/index/index",
+    "pages/logs/logs",
     "pages/lao/lao",
     "pages/shen/shen",
     
     
    
-    "pages/logs/logs",
+   
     "pages/zhu/zhu",
     "pages/wei/wei"
     

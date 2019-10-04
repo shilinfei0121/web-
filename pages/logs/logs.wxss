@@ -11,7 +11,7 @@ body{
 }
 .imgs{
   position: absolute;
-  top: 170px;
+  top: 160px;
   width: 128rpx;
   height: 128rpx;
   /* margin: 20rpx; */
@@ -21,13 +21,21 @@ body{
 .imegs{
 height:300rpx;
 }
+.left{
+margin-left: 20px;
+}
+.right{
+  position: absolute;
+  top: 186px;
+  left: 200px;
+}
 .ing{
-  margin-left: 20px;
-  width: 260px;
-  height: 180px;
+  width: 320px;
+  height: 165px;
 }
 .box{
-  margin-left: 10px;
+  margin-top: 5px;
+  margin-left: 30px;
   width: 265px;
   height: 270px;
   /* background: whitesmoke; */

@@ -5,7 +5,7 @@
     
     <block wx:else>
     <view>
-        <image class="lao" src="./imge/000.gif"></image>
+        <!-- <image class="lao" src="./imge/000.gif"></image> -->
     </view>
 
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
