@@ -1,11 +1,19 @@
 <!--pages/shen/shen.wxml-->
 <view>
     <swiper class="im" indicator-dots="true" autoplay="true" interval="2000">
-      <swiper-item class="im"><image class="im" src="./imge/01.png"></image></swiper-item>
-      <swiper-item class="im"><image class="im" src="./imge/02.png"></image></swiper-item>
-      <swiper-item class="im"><image class="im" src="./imge/03.png"></image></swiper-item>
+      <swiper-item class="im"><image class="im" src="./image/01.png"></image></swiper-item>
+      <swiper-item class="im"><image class="im" src="./image/02.png"></image></swiper-item>
+      <swiper-item class="im"><image class="im" src="./image/03.png"></image></swiper-item>
     </swiper>
     <view class="div">
     <div class="plan-mark plan-mark1"></div>
     </view>
+
+<view class='footer'>
+  <view class='footer_list' data-id='{{index}}' catchtap='Navigation' wx:for="{{listInfo}}" data-current="{{index}}" wx:key="this" bindtap="chooseImg">
+    <image class="footer-image" hidden='{{curIdx===index}}' src="{{item.imgUrl}}"></image>
+    <image class="footer-image" hidden='{{curIdx!==index}}' src="{{item.curUrl}}"></image>
+    <view class="footer-text">{{item.text}}</view>
+  </view>
+</view>
 </view>

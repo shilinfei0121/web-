@@ -1,4 +1,0 @@
-<!--pages/lao/lao.wxml-->
-<view>
-<image class="lao" src="./imge/000.gif"></image>
-</view>

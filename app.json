@@ -1,18 +1,9 @@
 {
   "pages": [
-    
-    "pages/index/index",
     "pages/logs/logs",
-    "pages/lao/lao",
+    "pages/index/index",
     "pages/shen/shen",
-    
-    
-   
-   
-    "pages/zhu/zhu",
     "pages/wei/wei"
-    
-    
   ],
   "window": {
     "backgroundTextStyle": "light",
