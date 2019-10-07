@@ -13,9 +13,9 @@
 		"coverView": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.0.4",
-	"appid": "wx3eba161528627fcc",
-	"projectname": "web-%E9%A3%9E",
+	"libVersion": "2.8.3",
+	"appid": "touristappid",
+	"projectname": "miniprogram-1",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

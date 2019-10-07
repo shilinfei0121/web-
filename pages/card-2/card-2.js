@@ -1,4 +1,4 @@
-// pages/wei/wei.js
+// pages/card-2/card-2.js
 Page({
 
   /**

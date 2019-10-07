@@ -1,0 +1,18 @@
+<view class="box">
+  <navigator url="../card-1/card-1">
+    <view class="journal">
+      <view class="img"><image src="../../images/01.png"></image></view>
+      <view class="nal">日志详情</view>
+      <view class="master">记录技术、技巧、常识、经验类文章</view>
+      <view class="foot"></view>
+    </view>
+    </navigator>
+    <navigator url="../card-2/card-2">
+    <view class="journal">
+      <view class="img"><image src="../../images/03.png"></image></view>
+      <view class="nal">个人微店</view>
+      <view class="master">添加我的微信好友</view>
+      <view class="foot"></view>
+    </view>
+    </navigator>
+</view>

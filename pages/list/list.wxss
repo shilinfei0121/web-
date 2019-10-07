@@ -1,0 +1,112 @@
+.box{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.imgurl{
+  z-index: 1;
+}
+.imgurl image{
+  width: 100%;
+  height: 350rpx;
+}
+.user{
+  width: 90%;
+  height: 350rpx;
+  background: white;
+  box-shadow: 0 0 12px rgb(199, 199, 199);
+  margin-left: 5%;
+  z-index: 10;
+  border-radius: 5px;
+  margin-top: 10%;
+}
+.name{
+  padding-top: 15rpx; 
+}
+.name text{
+  width: 100%;
+  font-size:33rpx;
+  padding: 20rpx;
+  font-weight:bold;
+}
+.mobile{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.mobile view:nth-of-type(1){
+  width: 20%;
+  height: 90rpx;
+  line-height: 90rpx;
+  margin-left: 20rpx;
+  font-size: 30rpx;
+}
+.mobile view:nth-of-type(2){
+  width: 50%;
+  height: 90rpx;
+  line-height: 90rpx;
+  font-size: 30rpx;
+}
+.mobile view:nth-of-type(3){
+  width: 25%;
+}
+.mobile view button{
+  width: 110rpx;
+  height: 50rpx;
+  font-size: 19.5rpx;
+  background: rgb(236, 232, 232);
+  line-height: 50rpx;
+  margin-top: 19rpx;
+  }
+  .share{
+    width: 100%;
+    display: flex;
+  }
+  .share view{
+    margin-top: 30rpx;
+    flex: 1;
+    text-align: center;
+  }
+  .share view text{
+    font-size: 25rpx;
+  }
+  .imger{
+    width: 90rpx;
+    height: 90rpx;
+    border-radius: 50%;
+    background:whitesmoke;
+    text-align: center;
+    line-height: 115rpx;
+    margin-left: 75rpx;
+  }
+  .imger image{
+    width: 45rpx;
+    height: 45rpx;
+  }
+  .ma{
+    width: 200rpx;
+    height: 200rpx;
+    background: gray;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 20rpx;
+  }
+  .ma image{
+    width: 200rpx;
+    height: 200rpx;
+    border-radius: 50%;
+  }
+  .but text{
+    font-size: 28rpx;
+  }
+  .but::after{
+    border: none;
+  }
+  .but{
+    background: white;
+    color: gray;
+  }
+  .berr{
+    margin-left: -15px;
+  }

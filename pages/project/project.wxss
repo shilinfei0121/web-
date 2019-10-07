@@ -1,0 +1,70 @@
+.box{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.img{
+  width: 100%;
+  height: 350rpx;
+  background: gray;
+  z-index: 1;
+}
+.img image{
+  width: 100%;
+  height: 350rpx;
+}
+.porject{
+  box-shadow: 0 0 12px rgb(199, 199, 199);
+  z-index: 10;
+  width: 90%;
+  height: 760rpx;
+  background: rgb(248, 245, 245);
+  margin-top: -10%;
+  margin-left: 5%;
+}
+.index{
+  margin-left: 55px;
+  display: flex;
+  background: #1296db;
+  width: 35%;
+  margin-top: 30rpx;
+}
+.index view:nth-of-type(1){
+  margin-left: 15rpx;
+}
+.index view:nth-of-type(1) image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.index view:nth-of-type(2){
+  margin-left: 20rpx;
+  /* font-size: 1vm; */
+  font-weight:bold;
+  font-size: 32rpx;
+  margin-top: 8rpx;
+}
+.work{
+  font-size: 10px;
+  width: 100%;
+  display: flex;
+  margin: 20rpx 0;
+}
+.text{
+  color: white;
+}
+.image{
+  margin-left: 125rpx;
+}
+.work view:nth-of-type(1) image{
+  width: 100rpx;
+  height: 120rpx;
+}
+.work view:nth-of-type(2){
+  font-size: 32rpx;
+  margin-top: 10px;
+}
+.node{
+  margin-top: 20rpx;
+  margin-left: 100px;
+}

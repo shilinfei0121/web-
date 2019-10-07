@@ -1,0 +1,11 @@
+<view class="box">
+    <view class="card">
+      <view><image src="https://wx.qlogo.cn/mmopen/vi_32/nHTeBrP98wzG3RFxx88FrOLiaRXvBSiaKws0Vvzy7INjxIWuMZvn83gNLvgx3GSvNHubST5wmiaOQ80dRlrsxFuKw/132"></image></view>
+    </view>  
+    <view class="sho">
+        <view>我的个人微信</view>
+    </view>
+    <view class="wei">
+        <view><image class="wei" src="../../images/wei.jpg"></image></view>
+    </view>
+</view>

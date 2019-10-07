@@ -1,0 +1,37 @@
+<view class="box">
+    <view class="img"><image src="../../images/000.png"></image></view>
+        <view class="porject">
+      <view class="index">
+        <view><image src="../../images/card.png"></image></view>
+        <view class="text">工作经历</view>
+      </view>
+       <view class="work">
+          <view class="node">
+            <view>·2018.10-2019.06</view>
+            <view>北京云槿科技有限公司</view>
+          </view>
+       </view>
+       <view class="work">
+          <view class="node">
+            <view>2017.08-2018.10</view>
+            <view>北京欧博力科技有限公司</view>
+          </view>
+       </view>
+       <view class="work">
+          <view class="node">
+            <view>2016.10-2017.07</view>
+            <view>运城市乐果乐食品有限公司</view>
+          </view>
+       </view>
+       <view class="index">
+        <view><image src="../../images/text.png"></image></view>
+        <view class="text">教育经历</view>
+      </view>
+       <view class="work">
+          <view class="node">
+            <view>2012.09-2016.07</view>
+            <view>山西农业大学信息学院</view>
+          </view>
+       </view>
+    </view>
+</view>

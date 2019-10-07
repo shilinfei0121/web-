@@ -1,0 +1,41 @@
+<view class="box">
+  <view class="imgurl">
+      <swiper class="im" indicator-dots="true" autoplay="true" interval="2000">
+      <swiper-item class="im"><image class="im" src="../../images/01.png"></image></swiper-item>
+      <swiper-item class="im"><image class="im" src="../../images/02.png"></image></swiper-item>
+      <swiper-item class="im"><image class="im" src="../../images/03.png"></image></swiper-item>
+    </swiper>
+  </view>
+  <view class="user">
+      <view class="name"><text>施林飞</text></view>
+      <view class="mobile">
+          <view class="no-1">手机</view>
+          <view class="no-2">17638133619</view>
+          <view class="no-3"><button bindtap="callUp">拨打</button></view>
+      </view>
+      <view class="mobile">
+          <view>邮箱</view>
+          <view>244878765@qq.com</view>
+          <view><button bindtap="textPaste">复制</button></view>
+      </view>
+      <view class="mobile">
+          <view>职业</view>
+          <view>Web前端</view>
+          <view><button bindtap="textPate">复制</button></view>
+      </view>
+  </view>
+  <view class="share">
+      <view class="but"  bindtap="poster">
+          <view class="imger"><image src="../../images/4.png"></image></view>
+          <text>生成海报</text>
+      </view>
+      <view class="but" bindtap="savePhone">
+          <view class="imger"><image src="../../images/5.png"></image></view>
+          <text>保存电话</text>
+      </view>
+      <view class="but">
+        <view class="imger"><image src="../../images/6.png"></image></view>
+        <text>分享好友</text>
+      </view>
+  </view>
+</view>

@@ -6,8 +6,6 @@
 }
 
 .userinfo-avatar {
-  top: 50px;
-  position: absolute;
   width: 128rpx;
   height: 128rpx;
   margin: 20rpx;
@@ -15,30 +13,9 @@
 }
 
 .userinfo-nickname {
-  margin-left: 5px;
   color: #aaa;
-  position: absolute;
-  top: 115px;
 }
 
 .usermotto {
   margin-top: 200px;
-  color: darkorange;
-}
-
-.lao{
-  margin: 0 ;
-  left: 0;
-  top: 0;
-  height: 500px;
-  position: absolute;
-}
-
-.notd{
-  height: 30px; 
-}
-
-.xiaoxue{
-  color: pink;
-  margin-top: 50px;
 }

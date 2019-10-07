@@ -1,41 +1,6 @@
 <!--logs.wxml-->
 <view class="container log-list">
-  <view>
-  <!-- <image class="ing" src="./image/l0.jpg"></image> -->
-  <!-- <view class="left">-------------</view>
-  <view class="right">-------------</view> -->
-  <view class="box">
-  <image class="imgs" src="https://wx.qlogo.cn/mmopen/vi_32/nHTeBrP98wzG3RFxx88FrOLiaRXvBSiaKws0Vvzy7INjxIWuMZvn83gNLvgx3GSvNHubST5wmiaOQ80dRlrsxFuKw/132" mode="cover"></image>
-  
-  <view class="kon"></view>
-  <view class="div">
-      <view>姓名:</view>
-      <view class="ipp"><input value="施林飞"></input></view>
-      <!-- <view class="btt"><button class="btn">复制</button></view> -->
-  </view>
-  <view class="div">
-      <view>微信:</view>
-      <view class="ipp"><input value="slf244878765"></input></view>
-      <view class="btt"><button class="btn">复制</button></view>
-  </view>
-  <view class="div">
-      <view>手机:</view>
-      <view class="ipp"><input value="244878765"></input></view>
-      <view class="btt"><button class="btn">拨打</button></view>
-  </view>
-  <view class="div">
-      <view>职位:</view>
-      <view class="ipp"><input value="web前端"></input></view>
-      <view class="btt"><button class="btn">复制</button></view>
-  </view>
-  </view>
-  </view>
-  
-<view class='footer'>
-  <view class='footer_list' data-id='{{index}}' catchtap='Navigation' wx:for="{{listInfo}}" data-current="{{index}}" wx:key="this" bindtap="chooseImg">
-    <image class="footer-image" hidden='{{curIdx===index}}' src="{{item.imgUrl}}"></image>
-    <image class="footer-image" hidden='{{curIdx!==index}}' src="{{item.curUrl}}"></image>
-    <view class="footer-text">{{item.text}}</view>
-  </view>
-</view>
+  <block wx:for="{{logs}}" wx:for-item="log">
+    <text class="log-item">{{index + 1}}. {{log}}</text>
+  </block>
 </view>

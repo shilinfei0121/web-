@@ -1,0 +1,50 @@
+/* page{
+  background: rgb(245, 236, 236);
+} */
+.box{
+  width: 100%;
+  height: 100%;
+  /* background: rgb(196, 162, 162); */
+  display: flex;
+  flex-direction: column;
+}
+.card{
+  width: 100%;
+  height: 180rpx;
+}
+.card view{
+  width: 120rpx;
+  height: 120rpx;
+  background: rgb(235, 221, 221);
+  text-align: center;
+  margin: 10rpx 320rpx;
+  border-radius: 10rpx;
+  
+}
+.card view image{
+  width: 100rpx;
+  height: 100rpx;
+  margin-top: 12rpx;
+}
+.text{
+  width: 100%;
+  font-size: 32rpx;
+  padding: 0 3%;
+}
+.sho{
+  width: 100%;
+  height: 150rpx;
+}
+.sho view{
+  margin: 50rpx 25rpx;
+  font-size: 2vm;
+  font-weight:bold;
+}
+.geLei{
+  width: 100%;
+  font-size: 32rpx;
+  padding: 0 3%;
+}
+.wei{
+  height: 300px;
+}
